@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1743D5892756BD7B002A6404 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743D5882756BD7B002A6404 /* APIKeys.swift */; };
+		179A0A302756BFA5009ADD41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 179A0A2F2756BFA5009ADD41 /* GoogleService-Info.plist */; };
+		179A0A322756C417009ADD41 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A0A312756C417009ADD41 /* EventListViewController.swift */; };
+		179A0A3627586786009ADD41 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A0A3527586786009ADD41 /* EventTableViewCell.swift */; };
+		179A0A38275868C3009ADD41 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A0A37275868C3009ADD41 /* EventDetailViewController.swift */; };
+		179A0A3A27587580009ADD41 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A0A3927587580009ADD41 /* Event.swift */; };
+		179A0A3C27587AF7009ADD41 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A0A3B27587AF7009ADD41 /* UIViewController+alert.swift */; };
+		17A1DCEC2759A179006D1CFA /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A1DCEB2759A179006D1CFA /* Events.swift */; };
 		17E11BD42755B48400CF5558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E11BD32755B48400CF5558 /* AppDelegate.swift */; };
 		17E11BD62755B48400CF5558 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E11BD52755B48400CF5558 /* SceneDelegate.swift */; };
-		17E11BD82755B48400CF5558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E11BD72755B48400CF5558 /* ViewController.swift */; };
+		17E11BD82755B48400CF5558 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E11BD72755B48400CF5558 /* LoginViewController.swift */; };
 		17E11BDB2755B48400CF5558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E11BD92755B48400CF5558 /* Main.storyboard */; };
 		17E11BDD2755B48500CF5558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E11BDC2755B48500CF5558 /* Assets.xcassets */; };
 		17E11BE02755B48500CF5558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E11BDE2755B48500CF5558 /* LaunchScreen.storyboard */; };
+		17EFB4D8275C224900861051 /* AcceptedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFB4D7275C224900861051 /* AcceptedListViewController.swift */; };
+		17EFB4DA275C227900861051 /* AcceptedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFB4D9275C227900861051 /* AcceptedTableViewCell.swift */; };
+		17EFB4DE275C674000861051 /* Attendence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFB4DD275C674000861051 /* Attendence.swift */; };
+		19C9E3AAA204BB0721D824D0 /* Pods_EaglesFly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DF1E503A94DA8FA6F3E73C /* Pods_EaglesFly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1743D5882756BD7B002A6404 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		179A0A2F2756BFA5009ADD41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		179A0A312756C417009ADD41 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		179A0A3527586786009ADD41 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		179A0A37275868C3009ADD41 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		179A0A3927587580009ADD41 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		179A0A3B27587AF7009ADD41 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		17A1DCEB2759A179006D1CFA /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		17E11BD02755B48400CF5558 /* EaglesFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaglesFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E11BD32755B48400CF5558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17E11BD52755B48400CF5558 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17E11BD72755B48400CF5558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17E11BD72755B48400CF5558 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		17E11BDA2755B48400CF5558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17E11BDC2755B48500CF5558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17E11BDF2755B48500CF5558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17E11BE12755B48500CF5558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EFB4D7275C224900861051 /* AcceptedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedListViewController.swift; sourceTree = "<group>"; };
+		17EFB4D9275C227900861051 /* AcceptedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedTableViewCell.swift; sourceTree = "<group>"; };
+		17EFB4DD275C674000861051 /* Attendence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendence.swift; sourceTree = "<group>"; };
+		345409FD94F06430FF5B00C1 /* Pods-EaglesFly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaglesFly.release.xcconfig"; path = "Target Support Files/Pods-EaglesFly/Pods-EaglesFly.release.xcconfig"; sourceTree = "<group>"; };
+		61DF1E503A94DA8FA6F3E73C /* Pods_EaglesFly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EaglesFly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7BCFD53DD06CF8FBF7C2D9 /* Pods-EaglesFly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaglesFly.debug.xcconfig"; path = "Target Support Files/Pods-EaglesFly/Pods-EaglesFly.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C9E3AAA204BB0721D824D0 /* Pods_EaglesFly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				17E11BD22755B48400CF5558 /* EaglesFly */,
 				17E11BD12755B48400CF5558 /* Products */,
+				4E37760780A67A132959AE2C /* Pods */,
+				BC26BC3E8B2669C52EDC7A35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +87,41 @@
 			children = (
 				17E11BD32755B48400CF5558 /* AppDelegate.swift */,
 				17E11BD52755B48400CF5558 /* SceneDelegate.swift */,
-				17E11BD72755B48400CF5558 /* ViewController.swift */,
+				179A0A3927587580009ADD41 /* Event.swift */,
+				17A1DCEB2759A179006D1CFA /* Events.swift */,
+				17EFB4DD275C674000861051 /* Attendence.swift */,
+				17E11BD72755B48400CF5558 /* LoginViewController.swift */,
+				179A0A312756C417009ADD41 /* EventListViewController.swift */,
+				179A0A3527586786009ADD41 /* EventTableViewCell.swift */,
+				179A0A37275868C3009ADD41 /* EventDetailViewController.swift */,
+				17EFB4D7275C224900861051 /* AcceptedListViewController.swift */,
+				17EFB4D9275C227900861051 /* AcceptedTableViewCell.swift */,
+				179A0A3B27587AF7009ADD41 /* UIViewController+alert.swift */,
 				17E11BD92755B48400CF5558 /* Main.storyboard */,
 				17E11BDC2755B48500CF5558 /* Assets.xcassets */,
 				17E11BDE2755B48500CF5558 /* LaunchScreen.storyboard */,
+				1743D5882756BD7B002A6404 /* APIKeys.swift */,
 				17E11BE12755B48500CF5558 /* Info.plist */,
+				179A0A2F2756BFA5009ADD41 /* GoogleService-Info.plist */,
 			);
 			path = EaglesFly;
+			sourceTree = "<group>";
+		};
+		4E37760780A67A132959AE2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC7BCFD53DD06CF8FBF7C2D9 /* Pods-EaglesFly.debug.xcconfig */,
+				345409FD94F06430FF5B00C1 /* Pods-EaglesFly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC26BC3E8B2669C52EDC7A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61DF1E503A94DA8FA6F3E73C /* Pods_EaglesFly.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17E11BE42755B48500CF5558 /* Build configuration list for PBXNativeTarget "EaglesFly" */;
 			buildPhases = (
+				783F91C5618FC2C66E2E8398 /* [CP] Check Pods Manifest.lock */,
 				17E11BCC2755B48400CF5558 /* Sources */,
 				17E11BCD2755B48400CF5558 /* Frameworks */,
 				17E11BCE2755B48400CF5558 /* Resources */,
+				E9A830DC09DA975AF54ECD26 /* [CP] Embed Pods Frameworks */,
+				A575D86C217FF297596A770B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17E11BE02755B48500CF5558 /* LaunchScreen.storyboard in Resources */,
+				179A0A302756BFA5009ADD41 /* GoogleService-Info.plist in Resources */,
 				17E11BDD2755B48500CF5558 /* Assets.xcassets in Resources */,
 				17E11BDB2755B48400CF5558 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +194,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		783F91C5618FC2C66E2E8398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EaglesFly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A575D86C217FF297596A770B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EaglesFly/Pods-EaglesFly-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EaglesFly/Pods-EaglesFly-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EaglesFly/Pods-EaglesFly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A830DC09DA975AF54ECD26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EaglesFly/Pods-EaglesFly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EaglesFly/Pods-EaglesFly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EaglesFly/Pods-EaglesFly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17E11BCC2755B48400CF5558 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E11BD82755B48400CF5558 /* ViewController.swift in Sources */,
+				179A0A3A27587580009ADD41 /* Event.swift in Sources */,
+				179A0A3627586786009ADD41 /* EventTableViewCell.swift in Sources */,
+				17EFB4D8275C224900861051 /* AcceptedListViewController.swift in Sources */,
+				17EFB4DE275C674000861051 /* Attendence.swift in Sources */,
+				17E11BD82755B48400CF5558 /* LoginViewController.swift in Sources */,
+				179A0A3C27587AF7009ADD41 /* UIViewController+alert.swift in Sources */,
+				17A1DCEC2759A179006D1CFA /* Events.swift in Sources */,
 				17E11BD42755B48400CF5558 /* AppDelegate.swift in Sources */,
+				1743D5892756BD7B002A6404 /* APIKeys.swift in Sources */,
 				17E11BD62755B48400CF5558 /* SceneDelegate.swift in Sources */,
+				179A0A38275868C3009ADD41 /* EventDetailViewController.swift in Sources */,
+				17EFB4DA275C227900861051 /* AcceptedTableViewCell.swift in Sources */,
+				179A0A322756C417009ADD41 /* EventListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +414,7 @@
 		};
 		17E11BE52755B48500CF5558 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7BCFD53DD06CF8FBF7C2D9 /* Pods-EaglesFly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +428,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +444,7 @@
 		};
 		17E11BE62755B48500CF5558 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345409FD94F06430FF5B00C1 /* Pods-EaglesFly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
