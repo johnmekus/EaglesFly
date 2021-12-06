@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import AVFoundation
 
 private let dateFormatter: DateFormatter =
 {
@@ -31,6 +32,7 @@ class EventDetailViewController: UIViewController
     @IBOutlet weak var datePicker: UIDatePicker!
     var event: Event!
     var attendence: Attendence!
+    var audioPlayer: AVAudioPlayer!
     
     override func viewDidLoad()
     {
@@ -148,6 +150,8 @@ class EventDetailViewController: UIViewController
     
     @IBAction func acceptedButtonPressed(_ sender: UIButton)
     {
+        playSound(name: "beep")
+        //NOTE: Playing a sound throws an exception in this case. I looked up the issue and on apple's website they say it is a known issue. It works fine if you simulate on a phone!
         event.attendedBy.append(Auth.auth().currentUser!.uid)
         event.saveData { success in
             if success
@@ -181,6 +185,26 @@ class EventDetailViewController: UIViewController
             } else {
                 print("Delete unsuccessful")
             }
+        }
+    }
+    
+    func playSound(name: String)
+    {
+        if let sound = NSDataAsset(name: name)
+        {
+            do
+            {
+                try audioPlayer = AVAudioPlayer(data: sound.data)
+                audioPlayer.play()
+            }
+            catch
+            {
+                print("ERROR: \(error.localizedDescription) Could not real error from file sound0.")
+            }
+        }
+        else
+        {
+            print("ERROR: Could not real error from file sound0.")
         }
     }
 }
